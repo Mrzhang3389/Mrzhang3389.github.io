@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 
-  <title>跟着我一起从零实现一片论文~</title>
+  <title>手把手教你从零实现一片论文~</title>
 
 
   <meta name="HandheldFriendly" content="True" />
@@ -49,7 +49,7 @@
 
 <!-- Open Graph -->
 <meta property="og:site_name" content="此时此刻即是最好的~"/>
-<meta property="og:title" content="跟着我一起从零实现一片论文~"/>
+<meta property="og:title" content="手把手教你从零实现一片论文~"/>
 <meta property="og:description" content="这是一篇关于从零实现一篇关于人脸检测论文的文章."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="/2018/10/build-blog-system-by-pelican.html"/>
@@ -67,8 +67,8 @@
 {
   "@context": "http://schema.org",
   "@type": "Article",
-  "name": "跟着我一起从零实现一片论文~",
-  "headline": "跟着我一起从零实现一片论文~",
+  "name": "手把手教你从零实现一片论文~",
+  "headline": "手把手教你从零实现一片论文~",
   "datePublished": "2018-10-08 00:00:00+08:00",
   "dateModified": "",
   "author": {
@@ -115,7 +115,7 @@
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
           </span>
         </nav>
-        <h1 class="post-title">跟着我一起从零实现一片论文~</h1>
+        <h1 class="post-title">手把手教你从零实现一片论文~</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
                 <a href="/author/zh">zh</a>
@@ -142,21 +142,11 @@
 <li>本文使用框架: Pytorch  (其它框架也可以)</li>
 <li>一台电脑 + 足够的耐心</li>
 </ol>
-<h4>论文思路:</h4>
-<p>使用三级网络 重复验证检测出的不同分辨率的人脸</p>
-<ol>
-<li>首先将人脸照片送入P网络使用CNN扫描, 扫描的图像大小为原图缩放到12*12</li>
-<li>将P网络扫描出来的人脸图像在原图上截取后, 缩放到24*24再送入R网络进行检测</li>
-<li>最后将R网络扫描出来的人脸图像在原图上截取后, 缩放到48*48进行最后的人脸识别</li>
-</ol>
-<h4>拆分论文思路可参考如下思维导图:</h4>
-<p><img alt="思维导图" src="https://raw.githubusercontent.com/Mrzhang3389/MTCNN/master/Mtcnn_Step/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/MTCNN.png"></p>
-<h4>整个代码编写逻辑如下图所示:</h4>
-<p><img alt="代码模块" src="https://raw.githubusercontent.com/Mrzhang3389/MTCNN/master/Mtcnn_Step/%E5%AE%9E%E7%8E%B0%E4%BB%A3%E7%A0%81%E4%B8%BB%E8%A6%81%E7%BB%93%E6%9E%84.png"></p>
-<h4>最后逐步实现上述的每个代码块即可</h4>
+<h4>实现过程</h4>
 <p>可参考我的github实现过程: <a href="https://mrzhang3389.github.io/MTCNN/">MTCNN GitHub Pages</a></p>
 <p>项目代码可参考: <a href="https://github.com/Mrzhang3389/MTCNN">MTCNN</a></p>
-<p>直接使用可参考: <a href="https://github.com/Mrzhang3389/faceAlignmentMTCNN">MTCNN</a></p>
+<h4>拆分论文思路可参考如下思维导图:</h4>
+<p><img alt="思维导图" src="https://raw.githubusercontent.com/Mrzhang3389/MTCNN/master/Mtcnn_Step/%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/MTCNN.png"></p>
 <h4>效果图</h4>
 <p><img alt="效果图" src="https://raw.githubusercontent.com/Mrzhang3389/MTCNN/master/MtcnnFinal/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg"></p>
 <h6>如有侵犯肖像权联系我删除. <a href="mailto:zhanghao_3389@163.com">zhanghao_3389@163.com</a></h6>
@@ -164,7 +154,7 @@
 
             <section class="post-info">
                 <div class="post-share">
-                    <a class="twitter" href="https://twitter.com/share?text=跟着我一起从零实现一片论文~&amp;url=/2018/10/build-blog-system-by-pelican.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <a class="twitter" href="https://twitter.com/share?text=手把手教你从零实现一片论文~&amp;url=/2018/10/build-blog-system-by-pelican.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
                     </a>
                     <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=/2018/10/build-blog-system-by-pelican.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">

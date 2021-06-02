@@ -2,7 +2,7 @@
 参考教程: [Pelican搭建](https://jiang-hao.com/articles/2018/frontend-%E4%BD%BF%E7%94%A8Pelican%E5%9F%BA%E4%BA%8EGithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B.html)
 
 #### 欢迎来到我的blog项目
-GitHub博客首页请访问: [GitHub博客页面](https://mrzhang3389.github.io/)
+GitHub博客首页请访问: [GitHub博客页面](https://zh3389.github.io/)
 
 CSDN博客首页请访问: [CSDN博客页面](https://blog.csdn.net/zhanghao3389)
 

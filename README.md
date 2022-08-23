@@ -93,3 +93,10 @@ make serve
 :cover: /assets/images/article_cover.jpg
 ```
 
+#### 更新博客流程
+
+```
+1. 把写好的markdown格式的文章放到content中，然后在blog目录下
+2. 本地查看效果的话：make html 然后make serve 最后访问：127.0.0.1:8000
+3. 发布到github：make github 完成
+```

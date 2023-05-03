@@ -1,3 +1,27 @@
+### Hi/你好 👋
+
+🔭  欢迎光临我的github数据  🏗🚧👷‍♂️
+
+<!--
+**zh3389/zh3389** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
+[![zh3389's github stats](https://github-readme-stats.vercel.app/api?username=zh3389)](https://github.com/zh3389/ 'zh3389的信息')
+
+<img src="https://badges.toozhao.com/badges/01EJWJV1BRF0GW9JVCGGNKTSDY/blue.svg" width=400/>
+
+
 ## Pelican Python GitHub blog 搭建
 参考教程: [Pelican搭建](https://jiang-hao.com/articles/2018/frontend-%E4%BD%BF%E7%94%A8Pelican%E5%9F%BA%E4%BA%8EGithubPages%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B.html)
 
